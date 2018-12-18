@@ -25,7 +25,6 @@ const Work = (props) => {
         <img className="col-6" alt="" src={props.images.two}></img>
         <img className="col-6" alt="" src={props.images.three}></img>
       </section>
-      <br/><br/>
       <section className="row">
         <img className="col-6" alt="" src={props.images.four}></img>
         <img className="col-6" alt="" src={props.images.five}></img>

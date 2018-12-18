@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import p5 from 'p5';
 import Seed from './sketch'
 import Work from './work';
+import Nav from './nav';
 import Data from './data';
 const data = Data.results;
 
@@ -24,5 +25,7 @@ const List = () => {
 }
 
 // new p5(Seed,'sketch'); // p5 components are weird, can't get them to work.
+
+// ReactDOM.render(<Nav/>, document.getElementById('nav'));
 
 ReactDOM.render(<List/>, document.getElementById('root'));

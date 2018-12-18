@@ -42,6 +42,16 @@
       "images":  {
         "one": "https://larryzodiac.github.io/Web-Application-Frameworks/images/read.png"
       }
+    },
+    {
+      "file": "FILE > NaN ... [ABOUT]",
+      "header": "Evan MacHale",
+      "sub_header": "",
+      "tags": "I'm an aspiring developer and interaction designer studying a B.Sc [Hons] in Creative-Computing in Dún Laoghaire's IADT. At the moment I'm researching generative and algorithmic design for creating web applications in react and three.",
+      "description": "https://github.com/larryzodiac/ https://www.linkedin.com/in/evanmachale/ https://twitter.com/evanmachale/",
+      "images":  {
+        "one": ""
+      }
     }
   ],
   "info": {
