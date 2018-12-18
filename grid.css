@@ -72,8 +72,8 @@ span {
 }
 
 .intro {
-  /* margin-top: 20%; */
-  padding-bottom: 6rem;
+  margin-top: 20%;
+  /* padding-bottom: 5rem; */
 }
 
 .link {
@@ -126,7 +126,8 @@ span {
 }
 
 .showcase-sections {
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 /* TYPOGRAPHY */
@@ -196,7 +197,6 @@ p {
 
 .container {
   z-index: 2000;
-  margin-top: 20%;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
