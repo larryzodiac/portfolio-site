@@ -1,43 +1,46 @@
 {
   "results": [
     {
-      "file": "FILE > 1/4 ... [UNDER CONSTRUCTION]",
-      "header": "Generative Jewellery",
-      "sub_header": " // Subdivision and Data Structure Algorithms.",
-      "tags": "Three.js, React.js, p5.js",
-      "description": "An ode to the work of Michael Hansmeyer.",
+      "file": "FILE > 1/4 ...",
+      "header": "Generative Covers",
+      "sub_header": " // The designer shifts from performer to conductor.",
+      "tags": "p5.js",
+      "description": "Suspendisse justo libero, tincidunt at lorem nec, congue lacinia metus. Pellentesque est ipsum, accumsan eget magna pulvinar, aliquet pulvinar odio. Nullam enim mauris, mollis sit amet diam in, porta pulvinar urna. Fusce iaculis lorem a molestie suscipit.",
       "images":  {
-        "one": "https://randomuser.me/api/portraits/women/8.jpg"
+        "two": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_212029_147_Colour1__rgba(145,120,255,1)_Colour2__rgba(0,240,168,1).png",
+        "three": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_213252_388_Colour1__rgba(59,0,255,1)_Colour2__rgba(0,48,255,1).png",
+        "four": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181122_130706_90_Colour1__rgba(229,200,131,1)_Colour2__rgba(220,200,235,1).png",
+        "five": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_220652_68_Colour1__rgba(0,0,0,1)_Colour2__rgba(41,41,51,1).png"
       }
     },
     {
-      "file": "FILE > 2/4 ... [UNDER CONSTRUCTION]",
+      "file": "FILE > 2/4 ...",
+      "header": "Nature of Code",
+      "sub_header": " // Simulating the world around us using code & mathematics.",
+      "tags": "p5.js, Processing3",
+      "description": "Suspendisse justo libero, tincidunt at lorem nec, congue lacinia metus. Pellentesque est ipsum, accumsan eget magna pulvinar, aliquet pulvinar odio. Nullam enim mauris, mollis sit amet diam in, porta pulvinar urna. Fusce iaculis lorem a molestie suscipit.",
+      "images":  {
+        "one": ""
+      }
+    },
+    {
+      "file": "FILE > 3/4 ... [UNDER CONSTRUCTION]",
       "header": "Teamwear",
       "sub_header": " // Bringing 3D sports kits customisation to the web via WebGL.",
       "tags": "Three.js, jQuery, Laravel",
       "description": "c sagittis ante cursus ut. Quisque quis quam vitae lectus pulvinar scelerisque. Sed luctus nisl lorem, vehicula ultricies odio convallis sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
       "images":  {
-        "one": "https://randomuser.me/api/portraits/women/8.jpg"
+        "one": "https://larryzodiac.github.io/3D-Kit-Designer/images/kit_builder.png"
       }
     },
     {
-      "file": "FILE > 3/4 ...",
+      "file": "FILE > 4/4 ...",
       "header": "Bookstore",
       "sub_header": " // Utilizing web frameworks to create a CRUD database application.",
       "tags": "Laravel, Vue.js, MySql",
       "description": "Praesent blandit velit purus, nec sodales erat hendrerit eu. Aliquam malesuada aliquam sapien quis cursus. Donec ultricies molestie enim, eu viverra arcu. Suspendisse sodales lorem lacus, eget ornare velit rhoncus sit amet. Ut dolor dolor, dignissim sit amet arcu nec, rhoncus tempus ex.",
       "images":  {
-        "one": "https://randomuser.me/api/portraits/women/8.jpg"
-      }
-    },
-    {
-      "file": "FILE > 4/4 ...",
-      "header": "Creative Coding",
-      "sub_header": " // Simulating the world around us using code & mathematics.",
-      "tags": "p5.js, Processing3",
-      "description": "Suspendisse justo libero, tincidunt at lorem nec, congue lacinia metus. Pellentesque est ipsum, accumsan eget magna pulvinar, aliquet pulvinar odio. Nullam enim mauris, mollis sit amet diam in, porta pulvinar urna. Fusce iaculis lorem a molestie suscipit.",
-      "images":  {
-        "one": "https://randomuser.me/api/portraits/women/8.jpg"
+        "one": "https://larryzodiac.github.io/Web-Application-Frameworks/images/read.png"
       }
     }
   ],

@@ -15,6 +15,7 @@ const List = () => {
       sub_header={d.sub_header}
       tags={d.tags}
       description={d.description}
+      images={d.images}
     />
   );
   return (

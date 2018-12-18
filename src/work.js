@@ -19,7 +19,16 @@ const Work = (props) => {
         </article>
       </section>
       <section className="row">
-        <figure className="col-12"><div className="image"></div></figure>
+        <img className="col-12" alt="" src={props.images.one}></img>
+      </section>
+      <section className="row">
+        <img className="col-6" alt="" src={props.images.two}></img>
+        <img className="col-6" alt="" src={props.images.three}></img>
+      </section>
+      <br/><br/>
+      <section className="row">
+        <img className="col-6" alt="" src={props.images.four}></img>
+        <img className="col-6" alt="" src={props.images.five}></img>
       </section>
     </div>
   );
