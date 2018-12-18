@@ -72,7 +72,7 @@ span {
 }
 
 .intro {
-  margin-top: 20%;
+  margin-top: 4%;
   /* padding-bottom: 5rem; */
 }
 
@@ -120,14 +120,9 @@ span {
     100%{background-position:0% 50%}
 }
 
-.image {
-  border: solid 1px white;
-  height: 600px;
-}
-
 .showcase-sections {
   padding-bottom: 5rem;
-  padding-top: 5rem;
+  padding-top: 10rem;
 }
 
 /* TYPOGRAPHY */
