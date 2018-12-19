@@ -38,7 +38,7 @@ a {
 }
 
 aside {
-  color: red;
+  color: crimson;
 }
 
 span {
@@ -57,9 +57,9 @@ span {
 
 /* CUSTOM STYLES */
 
-.sketch {
+/* .sketch {
   z-index: -1;
-}
+} */
 
 /* .sketch:after {
   content:'';
@@ -71,8 +71,34 @@ span {
   position: absolute;
 } */
 
+.nav {
+  z-index: 3;
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  width: 70%;
+  height: 4em;
+  background-color: #000000;
+  padding-top: 1.2em;
+  /* background-color: blue; */
+}
+
+.nav a {
+  padding-right: 0.5em;
+  color: grey;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.8rem;
+  font-weight: 100;
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+}
+
+.nav a:hover {
+  color: crimson;
+}
+
 .intro {
-  margin-top: 20%;
+  margin-top: 10%;
   /* padding-bottom: 5rem; */
 }
 
@@ -349,6 +375,15 @@ p {
 }
 
 @media only screen and (max-width: 33.75em) {  /* 540px */
+  .nav {
+    width: 90%;
+    height: 3em;
+  }
+
+  .nav a {
+    font-size: 1rem;
+    color: crimson;
+  }
   .intro header, a {
     font-size: 2.15rem;
   }

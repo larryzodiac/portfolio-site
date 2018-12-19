@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 
 const Nav = () => {
   return (
-    <nav className="row">
-      <p className="col-6">Nav</p>
+    <nav className="nav">
+      <a href="#" target="_new">[ABOUT]</a>
+      <a href="https://github.com/larryzodiac" target="_new">[GITHUB]</a>
     </nav>
   );
 }
