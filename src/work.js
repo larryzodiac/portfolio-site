@@ -1,4 +1,5 @@
 import React from 'react';
+import Frames from './frames'
 
 // Writing functions, no state needed.
 const Work = (props) => {
@@ -18,17 +19,7 @@ const Work = (props) => {
           <p>{props.description}</p>
         </article>
       </section>
-      <section className="row">
-        <img className="col-12" alt="" src={props.images.one}></img>
-      </section>
-      <section className="row">
-        <img className="col-6" alt="" src={props.images.two}></img>
-        <img className="col-6" alt="" src={props.images.three}></img>
-      </section>
-      <section className="row">
-        <img className="col-6" alt="" src={props.images.four}></img>
-        <img className="col-6" alt="" src={props.images.five}></img>
-      </section>
+      <Frames images={props.images}/>
     </div>
   );
 }

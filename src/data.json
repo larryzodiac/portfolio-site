@@ -7,10 +7,10 @@
       "tags": "p5.js",
       "description": "Suspendisse justo libero, tincidunt at lorem nec, congue lacinia metus. Pellentesque est ipsum, accumsan eget magna pulvinar, aliquet pulvinar odio. Nullam enim mauris, mollis sit amet diam in, porta pulvinar urna. Fusce iaculis lorem a molestie suscipit.",
       "images":  {
-        "two": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_212029_147_Colour1__rgba(145,120,255,1)_Colour2__rgba(0,240,168,1).png",
-        "three": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_213252_388_Colour1__rgba(59,0,255,1)_Colour2__rgba(0,48,255,1).png",
-        "four": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181122_130706_90_Colour1__rgba(229,200,131,1)_Colour2__rgba(220,200,235,1).png",
-        "five": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_220652_68_Colour1__rgba(0,0,0,1)_Colour2__rgba(41,41,51,1).png"
+        "one": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_212029_147_Colour1__rgba(145,120,255,1)_Colour2__rgba(0,240,168,1).png",
+        "two": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_213252_388_Colour1__rgba(59,0,255,1)_Colour2__rgba(0,48,255,1).png",
+        "three": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181122_130706_90_Colour1__rgba(229,200,131,1)_Colour2__rgba(220,200,235,1).png",
+        "four": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_220652_68_Colour1__rgba(0,0,0,1)_Colour2__rgba(41,41,51,1).png"
       }
     },
     {
@@ -19,9 +19,7 @@
       "sub_header": " // Simulating the world around us using code & mathematics.",
       "tags": "p5.js, Processing3",
       "description": "Suspendisse justo libero, tincidunt at lorem nec, congue lacinia metus. Pellentesque est ipsum, accumsan eget magna pulvinar, aliquet pulvinar odio. Nullam enim mauris, mollis sit amet diam in, porta pulvinar urna. Fusce iaculis lorem a molestie suscipit.",
-      "images":  {
-        "one": ""
-      }
+      "images":  {}
     },
     {
       "file": "FILE > 3/4 ... [UNDER CONSTRUCTION]",
@@ -49,9 +47,7 @@
       "sub_header": "",
       "tags": "I'm an aspiring developer and interaction designer studying a B.Sc [Hons] in Creative-Computing in Dún Laoghaire's IADT. At the moment I'm researching generative and algorithmic design for creating web applications in react and three.",
       "description": "https://github.com/larryzodiac/ https://www.linkedin.com/in/evanmachale/ https://twitter.com/evanmachale/",
-      "images":  {
-        "one": ""
-      }
+      "images":  {}
     }
   ],
   "info": {
