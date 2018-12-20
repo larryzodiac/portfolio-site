@@ -2,8 +2,8 @@
   "results": [
     {
       "file": "FILE > 1/4 ...",
-      "header": "Generative Covers",
-      "sub_header": " // The designer shifts from performer to conductor.",
+      "header": "Parametric Book Covers",
+      "sub_header": " // Creative coding for print with generative.",
       "tags": "p5.js",
       "description": "Suspendisse justo libero, tincidunt at lorem nec, congue lacinia metus. Pellentesque est ipsum, accumsan eget magna pulvinar, aliquet pulvinar odio. Nullam enim mauris, mollis sit amet diam in, porta pulvinar urna. Fusce iaculis lorem a molestie suscipit.",
       "images":  {

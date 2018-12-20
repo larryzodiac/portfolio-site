@@ -20,7 +20,8 @@ body {
   top: 0;
   font-size: 100%;
   overflow-x: hidden;
-  background-color: #000;
+  background-color: #020202;
+  /* background-color: #0039e5; */
 }
 
 header, a, span {
@@ -38,6 +39,7 @@ a {
 }
 
 aside {
+  font-weight: 400;
   color: crimson;
 }
 
@@ -71,6 +73,7 @@ span {
   position: absolute;
 } */
 
+
 .nav {
   z-index: 3;
   position: fixed;
@@ -78,17 +81,18 @@ span {
   top: 0;
   width: 70%;
   height: 4em;
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-color: #020202;
   padding-top: 1.2em;
   /* background-color: blue; */
 }
 
 .nav a {
   padding-right: 0.5em;
-  color: grey;
+  color: #8c8c8c;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1.8rem;
-  font-weight: 100;
+  font-weight: 400;
   -webkit-transition: color 0.5s linear;
   transition: color 0.5s linear;
 }
@@ -374,33 +378,51 @@ p {
   }
 }
 
-@media only screen and (max-width: 33.75em) {  /* 540px */
-  .nav {
-    width: 90%;
-    height: 3em;
-  }
-
-  .nav a {
-    font-size: 1rem;
-    color: crimson;
-  }
+@media only screen and (max-width: 115rem) {
   .intro header, a {
-    font-size: 2.15rem;
-  }
-  .container {
-    /* margin-top: -125%; */
-  }
-  .link {
-    border-bottom: solid 2px;
-    color: crimson;
+    font-size: 3.25rem;
   }
   .showcase-sections header {
-    font-size: 2.15rem;
+    font-size: 3.25rem;
+  }
+}
+
+@media only screen and (max-width: 95rem) {
+  .link {
+    border-bottom: solid 3px;
+  }
+  .intro header, a {
+    font-size: 2.75rem;
+  }
+  .showcase-sections header {
+    font-size: 2.75rem;
   }
   .showcase-sections article {
     font-size: 1rem;
   }
 }
+
+@media only screen and (max-width: 33.75em) {  /* 540px */
+  .nav {
+    width: 90%;
+    height: 3em;
+  }
+  .nav a {
+    font-size: 1rem;
+    color: crimson;
+  }
+  .link {
+    border-bottom: solid 2px;
+    color: crimson;
+  }
+  .intro header, a {
+    font-size: 2.15rem;
+  }
+  .showcase-sections header {
+    font-size: 2.15rem;
+  }
+}
+
 
 .animate {
   animation: fadein 2s;
