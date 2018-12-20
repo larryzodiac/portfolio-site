@@ -379,8 +379,8 @@ p {
 
 @media only screen and (max-width: 95rem) {
   .link {
-    border-bottom: solid 1px;
-    color: crimson;
+    border-bottom: solid 2px;
+    color: yellow;
   }
   .intro header, a {
     font-size: 2.75rem;
