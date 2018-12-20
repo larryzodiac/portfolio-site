@@ -377,7 +377,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 105rem) {
+@media only screen and (max-width: 115rem) {
   .nav a {
     color: green;
   }
@@ -395,7 +395,6 @@ p {
   }
   .link {
     border-bottom: solid 3px;
-    color: crimson;
   }
   .intro header, a {
     font-size: 2.75rem;
