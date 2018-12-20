@@ -6,6 +6,7 @@
       "sub_header": " // Creative coding for print with generative.",
       "tags": "p5.js",
       "description": "Suspendisse justo libero, tincidunt at lorem nec, congue lacinia metus. Pellentesque est ipsum, accumsan eget magna pulvinar, aliquet pulvinar odio. Nullam enim mauris, mollis sit amet diam in, porta pulvinar urna. Fusce iaculis lorem a molestie suscipit.",
+      "visit": "",
       "images":  {
         "one": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_212029_147_Colour1__rgba(145,120,255,1)_Colour2__rgba(0,240,168,1).png",
         "two": "https://larryzodiac.github.io/Creative-Coding/01_assignment/01_stills/181129_213252_388_Colour1__rgba(59,0,255,1)_Colour2__rgba(0,48,255,1).png",
@@ -19,6 +20,7 @@
       "sub_header": " // Simulating the world around us using code & mathematics.",
       "tags": "p5.js, Processing3",
       "description": "Suspendisse justo libero, tincidunt at lorem nec, congue lacinia metus. Pellentesque est ipsum, accumsan eget magna pulvinar, aliquet pulvinar odio. Nullam enim mauris, mollis sit amet diam in, porta pulvinar urna. Fusce iaculis lorem a molestie suscipit.",
+      "visit": "",
       "images":  {}
     },
     {
@@ -27,6 +29,7 @@
       "sub_header": " // Bringing 3D sports kits customisation to the web via WebGL.",
       "tags": "Three.js, jQuery, Laravel",
       "description": "c sagittis ante cursus ut. Quisque quis quam vitae lectus pulvinar scelerisque. Sed luctus nisl lorem, vehicula ultricies odio convallis sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "visit": "https://larryzodiac.github.io/3D-Kit-Designer/kit_builder/",
       "images":  {
         "one": "https://larryzodiac.github.io/3D-Kit-Designer/images/kit_builder.png"
       }
@@ -37,17 +40,10 @@
       "sub_header": " // Utilizing web frameworks to create a CRUD database application.",
       "tags": "Laravel, Vue.js, MySql",
       "description": "Praesent blandit velit purus, nec sodales erat hendrerit eu. Aliquam malesuada aliquam sapien quis cursus. Donec ultricies molestie enim, eu viverra arcu. Suspendisse sodales lorem lacus, eget ornare velit rhoncus sit amet. Ut dolor dolor, dignissim sit amet arcu nec, rhoncus tempus ex.",
+      "visit": "https://github.com/larryzodiac/Web-Application-Frameworks",
       "images":  {
         "one": "https://larryzodiac.github.io/Web-Application-Frameworks/images/read.png"
       }
-    },
-    {
-      "file": "FILE > NaN ... [ABOUT]",
-      "header": "Evan MacHale",
-      "sub_header": "",
-      "tags": "I'm an aspiring developer and interaction designer studying a B.Sc [Hons] in Creative-Computing in Dún Laoghaire's IADT. At the moment I'm researching generative and algorithmic design for creating web applications in react and three.",
-      "description": "https://github.com/larryzodiac/ https://www.linkedin.com/in/evanmachale/ https://twitter.com/evanmachale/",
-      "images":  {}
     }
   ],
   "info": {

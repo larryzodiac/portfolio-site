@@ -14,6 +14,7 @@ const Work = (props) => {
       <section className="row">
         <article className="col-6">
           <p>{props.tags}</p>
+          <a className="visit" href={props.visit} target="new">Visit Project >></a>
         </article>
         <article className="col-6">
           <p>{props.description}</p>
