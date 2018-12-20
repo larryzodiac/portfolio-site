@@ -379,7 +379,7 @@ p {
 
 @media only screen and (max-width: 95rem) {
   .link {
-    border-bottom: solid 1.5px;
+    border-bottom: solid 1px;
     color: crimson;
   }
   .intro header, a {
