@@ -378,12 +378,6 @@ p {
   }
 }
 
-@media only screen and (max-width: 200rem) {
-  .title {
-    width: 62.66%;
-  }
-}
-
 @media only screen and (max-width: 115rem) {
   .nav a {
     color: green;
@@ -399,12 +393,6 @@ p {
 @media only screen and (max-width: 95rem) {
   .nav a {
     color: orange;
-  }
-  .intro {
-    margin-top: 20%;
-  }
-  .title {
-    width: 71%;
   }
   .link {
     border-bottom: solid 3px;
