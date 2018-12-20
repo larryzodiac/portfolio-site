@@ -379,7 +379,7 @@ p {
 }
 
 @media only screen and (max-width: 200rem) {
-  .col-11 {
+  .title {
     width: 62.66%;
   }
 }
@@ -400,8 +400,8 @@ p {
   .nav a {
     color: orange;
   }
-  .col-11 {
-    width: 87.66%;
+  .title {
+    width: 96%;
   }
   .link {
     border-bottom: solid 3px;
