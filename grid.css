@@ -73,6 +73,7 @@ span {
   position: absolute;
 } */
 
+
 .nav {
   z-index: 3;
   position: fixed;
@@ -394,7 +395,7 @@ p {
     color: blue;
   }
   .col-8 {
-    width: 70%
+    width: 87.66%;
   }
   .link {
     border-bottom: solid 3px;
