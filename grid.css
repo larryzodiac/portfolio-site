@@ -377,7 +377,22 @@ p {
   }
 }
 
+@media only screen and (max-width: 105rem) {
+  .nav a {
+    color: green;
+  }
+  .intro header, a {
+    font-size: 3.25rem;
+  }
+  .showcase-sections header {
+    font-size: 3.25rem;
+  }
+}
+
 @media only screen and (max-width: 95rem) {
+  .nav a {
+    color: blue;
+  }
   .link {
     border-bottom: solid 3px;
     color: crimson;
