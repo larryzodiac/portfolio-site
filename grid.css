@@ -400,6 +400,9 @@ p {
   .nav a {
     color: orange;
   }
+  .intro {
+    margin-top: 20%;
+  }
   .title {
     width: 96%;
   }
