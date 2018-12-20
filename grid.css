@@ -378,6 +378,12 @@ p {
   }
 }
 
+@media only screen and (max-width: 200rem) {
+  .col-10 {
+    width: 62.66%;
+  }
+}
+
 @media only screen and (max-width: 115rem) {
   .nav a {
     color: green;
@@ -393,6 +399,9 @@ p {
 @media only screen and (max-width: 95rem) {
   .nav a {
     color: orange;
+  }
+  .col-10 {
+    width: 79.33%;
   }
   .link {
     border-bottom: solid 3px;
