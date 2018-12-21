@@ -20,7 +20,7 @@ body {
   top: 0;
   font-size: 100%;
   overflow-x: hidden;
-  /* background-color: #020202; */
+  background-color: #020202;
   /* background-color: #0039e5; */
 }
 
@@ -61,7 +61,7 @@ span {
 
 .sketch {
   z-index: -1;
-  position: fixed;
+  /* position: fixed; */
 }
 
 /* .sketch:after {
