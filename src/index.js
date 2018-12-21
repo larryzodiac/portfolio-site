@@ -25,8 +25,8 @@ const List = () => {
   );
 }
 
-// new p5(Seed,'sketch'); // p5 components are weird, can't get them to work.
+new p5(Seed,'sketch'); // p5 components are weird, can't get them to work.
 
-ReactDOM.render(<Nav/>, document.getElementById('nav'));
+// ReactDOM.render(<Nav/>, document.getElementById('nav'));
 
 ReactDOM.render(<List/>, document.getElementById('root'));

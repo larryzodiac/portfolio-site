@@ -3,7 +3,6 @@ import React from 'react';
 // Writing functions, no state needed.
 const Frames = (props) => {
   const images = Object.keys(props.images);
-  console.log(images.length)
   if (images.length === 1) {
     return (
       <div>

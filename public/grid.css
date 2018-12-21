@@ -40,7 +40,7 @@ a {
 
 aside {
   font-weight: 400;
-  color: crimson;
+  color: blue;
 }
 
 span {
@@ -59,9 +59,12 @@ span {
 
 /* CUSTOM STYLES */
 
-/* .sketch {
+.sketch {
   z-index: -1;
-} */
+  width: 100%;
+  height: 100%;
+  /* position: fixed; */
+}
 
 /* .sketch:after {
   content:'';
@@ -74,21 +77,21 @@ span {
 } */
 
 
-.nav {
+/* .nav-container {
   z-index: 3;
   position: fixed;
   display: inline-block;
   top: 0;
-  width: 70%;
+  left: 0;
+  width: 99%;
   height: 4em;
-  /* background-color: #000000; */
+  background-color: #000000;
   background-color: #020202;
   padding-top: 1.2em;
-  /* background-color: blue; */
-}
+  background-color: blue;
+} */
 
 .nav a {
-  padding-right: 0.5em;
   color: #8c8c8c;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1.8rem;
@@ -98,7 +101,7 @@ span {
 }
 
 .nav a:hover {
-  color: crimson;
+  color: blue;
 }
 
 .intro {
@@ -113,7 +116,7 @@ span {
 }
 
 .link:hover, .visit:hover {
-  color: crimson;
+  color: blue;
 }
 
 /* .link {
@@ -231,6 +234,7 @@ p {
 .container {
   z-index: 2000;
   width: 90%;
+  /* margin-top: -200%; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -417,20 +421,23 @@ p {
   }
   .nav a {
     font-size: 1rem;
-    color: crimson;
+    color: blue;
   }
   .link {
     border-bottom: solid 2px;
-    color: crimson;
+    color: blue;
   }
   .intro header, a {
     font-size: 2.15rem;
   }
+  /* .intro {
+    margin-top: 0;
+  } */
   .showcase-sections header {
     font-size: 2.15rem;
   }
   .visit {
-    color: crimson;
+    color: blue;
   }
 }
 
