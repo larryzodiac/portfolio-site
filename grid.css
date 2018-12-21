@@ -40,7 +40,7 @@ a {
 
 aside {
   font-weight: 400;
-  color: crimson;
+  color: blue;
 }
 
 span {
@@ -99,7 +99,7 @@ span {
 }
 
 .nav a:hover {
-  color: crimson;
+  color: blue;
 }
 
 .intro {
@@ -114,7 +114,7 @@ span {
 }
 
 .link:hover, .visit:hover {
-  color: crimson;
+  color: blue;
 }
 
 /* .link {
@@ -419,11 +419,11 @@ p {
   }
   .nav a {
     font-size: 1rem;
-    color: crimson;
+    color: blue;
   }
   .link {
     border-bottom: solid 2px;
-    color: crimson;
+    color: blue;
   }
   .intro header, a {
     font-size: 2.15rem;
@@ -435,7 +435,7 @@ p {
     font-size: 2.15rem;
   }
   .visit {
-    color: crimson;
+    color: blue;
   }
 }
 
