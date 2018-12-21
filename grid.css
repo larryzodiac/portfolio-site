@@ -441,7 +441,7 @@ p {
 
 
 .animate {
-  animation: fadein 5s;
+  animation: fadein 20s;
 }
 
 @keyframes fadein {
