@@ -167,10 +167,6 @@ span {
   padding-top: 10rem;
 }
 
-.footer {
-  padding-bottom: 1rem;
-}
-
 .visit {
   font-size: 2rem;
   font-weight: normal;
@@ -451,6 +447,9 @@ p {
   }
   .visit {
     color: blue;
+  }
+  .footer {
+    padding-bottom: 1rem;
   }
 }
 
