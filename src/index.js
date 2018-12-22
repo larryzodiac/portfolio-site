@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import p5 from 'p5';
 import Seed from './components/sketch'
 import Work from './components/work';
-import Nav from './components/nav';
 import Data from './assets/data';
 const data = Data.results;
 

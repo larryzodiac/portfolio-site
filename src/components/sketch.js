@@ -69,13 +69,9 @@ const Seed = (sketch) => {
   let fontSize = 500;
   let textImg;
 
-  let pointDensity = 10;
-
   let angle = 0.5;
   let cube = 500;
   let step = 0.001;
-  let capPos = .10;
-  let capNeg = 0;
 
   // Load in our type
   sketch.preload = () => font = sketch.loadFont(Font);
@@ -96,10 +92,7 @@ const Seed = (sketch) => {
   let agentCount = 400;
   let noiseScale = 300;
   let noiseStrength = 10;
-  let overlayAlpha = 10;
-  let agentAlpha = 255;
   let strokeWidth = 0.3;
-  let drawMode = 1;
 
   sketch.windowResized = () => {
     sketch.resizeCanvas(sketch.windowWidth, sketch.windowHeight);
@@ -123,11 +116,7 @@ const Seed = (sketch) => {
     if (w < 1000) {
       sketch.scale(0.5);
     }
-    // if (angle < capPos) {
-    //   step += 0.001;
-    // } else if (angle > capNeg) {
-    //   step -= 0.001;
-    // }
+
     angle = sketch.sin(sketch.frameCount / 10) * .4;
 
     sketch.rotateY(angle);

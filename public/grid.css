@@ -91,19 +91,6 @@ span {
   background-color: blue;
 } */
 
-.nav a {
-  color: #8c8c8c;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 1.8rem;
-  font-weight: 400;
-  -webkit-transition: color 0.5s linear;
-  transition: color 0.5s linear;
-}
-
-.nav a:hover {
-  color: blue;
-}
-
 .intro {
   margin-top: 10%;
   /* padding-bottom: 5rem; */
