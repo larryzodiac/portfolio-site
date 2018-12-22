@@ -1,6 +1,6 @@
 // import p5 from 'p5';
 import 'p5/lib/addons/p5.dom';
-import Font from './IBMPlexSans-Regular.ttf'
+import Font from '../assets/IBMPlexSans-Regular.ttf'
 // The seed that will spawn our p5 sketch.
 
 // ------------------------------------------------- //

@@ -115,8 +115,17 @@ span {
   transition: color 0.5s linear;
 }
 
-.link:hover, .visit:hover {
+.link:hover, .visit:hover, .footer-link:hover {
   color: blue;
+}
+
+.footer-link {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.125rem;
+  font-weight: 100;
+  line-height: 1.8;
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
 }
 
 /* .link {
@@ -438,6 +447,9 @@ p {
   }
   .visit {
     color: blue;
+  }
+  .footer {
+    padding-bottom: 1rem;
   }
 }
 
