@@ -101,7 +101,7 @@ const Seed = (sketch) => {
   let strokeWidth = 0.3;
   let drawMode = 1;
 
-  sketch.windowResize = () => {
+  sketch.windowResized = () => {
     sketch.resizeCanvas(sketch.windowWidth, sketch.windowHeight);
   }
 
