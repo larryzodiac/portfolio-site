@@ -1,7 +1,4 @@
 
-/* Playfair */
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
-
 /* Plex Mono */
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i');
 
@@ -23,6 +20,79 @@ body {
   background-color: #020202;
   /* background-color: #0039e5; */
 }
+
+/* ROOT FONT STYLES */
+
+* {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 100;
+  color: #fff;
+  line-height: 1.3;
+}
+
+/* CUSTOM STYLES */
+
+.sketch {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  /* position: fixed; */
+}
+
+.intro {
+  margin-top: 10%;
+  /* padding-bottom: 5rem; */
+}
+
+.link {
+  border-bottom: solid 5px;
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+}
+
+.link:hover, .visit:hover, .footer-link:hover {
+  color: blue;
+}
+
+.showcase-sections {
+  padding-bottom: 5rem;
+  padding-top: 10rem;
+}
+
+.visit {
+  font-size: 2rem;
+  font-weight: normal;
+  border-bottom: solid 2px;
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+}
+
+.footer-link {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.125rem;
+  font-weight: 100;
+  line-height: 1.8;
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+}
+
+/* @-webkit-keyframes linkflash {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes linkflash {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes linkflash {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+} */
+
+/* TYPOGRAPHY */
 
 header, a, span {
   font-family: 'IBM Plex Sans', sans-serif;
@@ -48,194 +118,9 @@ span {
   color: #666666
 }
 
-/* ROOT FONT STYLES */
-
-* {
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 100;
-  color: #fff;
-  line-height: 1.3;
-}
-
-/* CUSTOM STYLES */
-
-.sketch {
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  /* position: fixed; */
-}
-
-/* .sketch:after {
-  content:'';
-  bottom: 0;
-  left: 0;
-  height: 10rem;
-  right: 0;
-  background: linear-gradient(to top, #000 0%, transparent 100%);
-  position: absolute;
-} */
-
-
-/* .nav-container {
-  z-index: 3;
-  position: fixed;
-  display: inline-block;
-  top: 0;
-  left: 0;
-  width: 99%;
-  height: 4em;
-  background-color: #000000;
-  background-color: #020202;
-  padding-top: 1.2em;
-  background-color: blue;
-} */
-
-.nav a {
-  color: #8c8c8c;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 1.8rem;
-  font-weight: 400;
-  -webkit-transition: color 0.5s linear;
-  transition: color 0.5s linear;
-}
-
-.nav a:hover {
-  color: blue;
-}
-
-.intro {
-  margin-top: 10%;
-  /* padding-bottom: 5rem; */
-}
-
-.link {
-  border-bottom: solid 5px;
-  -webkit-transition: color 0.5s linear;
-  transition: color 0.5s linear;
-}
-
-.link:hover, .visit:hover, .footer-link:hover {
-  color: blue;
-}
-
-.footer-link {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 1.125rem;
-  font-weight: 100;
-  line-height: 1.8;
-  -webkit-transition: color 0.5s linear;
-  transition: color 0.5s linear;
-}
-
-/* .link {
-  color: white;
-  -webkit-transition: color 0.5s linear;
-  transition: color 0.5s linear;
-} */
-
-/* .link:hover {
-  background: linear-gradient(270deg, #a6c0fe, #f68084);
-  background-size: 400% 400%;
-  color:transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-
-  -webkit-animation: linkflash 5s ease infinite;
-  -moz-animation: linkflash 5s ease infinite;
-  animation: linkflash 5s ease infinite;
-} */
-
-@-webkit-keyframes linkflash {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes linkflash {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes linkflash {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-.showcase-sections {
-  padding-bottom: 5rem;
-  padding-top: 10rem;
-}
-
-.visit {
-  font-size: 2rem;
-  font-weight: normal;
-  border-bottom: solid 2px;
-  -webkit-transition: color 0.5s linear;
-  transition: color 0.5s linear;
-}
-
-/* TYPOGRAPHY */
-
-h1 {
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.375rem;
-}
-
-h4 {
-  font-size: 1.125rem;
-}
-
-h5 {
-  font-size: 1rem;
-}
-
-h6 {
-  font-size: 0.875rem;
-}
-
 p {
   font-size: 1.125rem;
   line-height: 1.8;
-}
-
-.font-light {
-  font-weight: 300;
-}
-
-.font-regular {
-  font-weight: 400;
-}
-
-.font-heavy {
-  font-weight: 700;
-}
-
-/* POSITIONING */
-
-.left {
-  text-align: left;
-}
-
-.right {
-  text-align: right;
-}
-
-.center {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.justify {
-  text-align: justify;
 }
 
 /* ==== GRID SYSTEM ==== */
