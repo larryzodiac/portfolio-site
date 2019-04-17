@@ -12,9 +12,10 @@
     months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
     mo = months[today.getMonth()],
     y = today.getFullYear();
-    document.getElementById('clock').innerHTML = h + ":" + m + ":" + s + "<br/>" + d + "," + mo + "," + y + "<br/>" + "Kildare";
-    // document.getElementById('date').innerHTML =;
-    t = setTimeout(function () {
+    if(document.getElementById('clock')) {
+     document.getElementById('clock').innerHTML = h + ":" + m + ":" + s + "<br/>" + d + ", " + mo + ", " + y + "<br/> Kildare";
+    }
+    let t = setTimeout(function () {
       startTime()
     }, 500);
   }
