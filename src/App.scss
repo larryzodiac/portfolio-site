@@ -4,12 +4,13 @@
   App.scss
 */
 
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:200,300,400,500,700');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,400,500');
 
 // fonts
 $plex-serif: 'IBM Plex Serif', serif;
 $plex-sans-serif: 'IBM Plex Sans', sans-serif;
+$plex-mono: 'IBM Plex Mono', monospace;
 $font-weight-light: 200;
 $font-weight-regular: 400;
 $font-weight-heavy: 700;
@@ -35,6 +36,8 @@ body {
 
 a {
   text-decoration: none;
+  font-family: inherit;
+  font-weight: inherit;
 }
 
 a:hover {
@@ -43,6 +46,9 @@ a:hover {
 
 * {
   color: $black;
+  line-height: 1.3;
+  font-family: $plex-mono;
+  font-weight: 100;
 }
 
 // typography
@@ -54,12 +60,15 @@ a:hover {
 .mdc-typography--headline6,
 .mdc-typography--subtitle1,
 .mdc-typography--subtitle2,
-.mdc-typography--body1,
-.mdc-typography--body2,
 .mdc-typography--caption,
 .mdc-typography--button,
 .mdc-typography--overline {
   font-family: $plex-sans-serif;
+}
+
+.mdc-typography--body1,
+.mdc-typography--body2, {
+  font-family: $plex-mono;
 }
 
 .type-light {
@@ -98,7 +107,9 @@ a:hover {
   display: none;
 }
 
-// Custom
+/*
+  Banner + Title
+*/
 
 .heading {
   height: 100vh;
@@ -107,41 +118,56 @@ a:hover {
 }
 
 .title {
-  font-family: $plex-serif;
-  font-size: calc(35px + 45 * ((100vw - 768px) / 952));
-  line-height: calc(55px + 45 * ((100vw - 768px) / 952));
-  letter-spacing: -.5px;
-  margin-bottom: 6rem;
+  padding-top: 15%;
+  font-weight: 400;
 }
 
 .title-link {
-  margin-right: 1.44231rem;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  -webkit-transition: color .2s ease-out,border-bottom-color .2s ease-out;
-  transition: color .2s ease-out,border-bottom-color .2s ease-out;
+  border-bottom: solid 5px;
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
 }
 
-.subtitle {
+.title-link:hover, .visit:hover, .footer-link:hover {
+  color: blue;
+}
+
+/*
+  Showcase sections
+*/
+
+aside {
+  font-family: $plex-mono;
+  font-weight: 300;
+  color: blue;
+}
+
+.showcase-titles {
   font-family: $plex-sans-serif;
-  font-size: calc(25px + 11 * ((100vw - 768px) / 952));
-  line-height: calc(30px + 11 * ((100vw - 768px) / 952));
-  margin-bottom: 6rem;
+  font-weight: 400;
 }
 
-.link {
-  margin-right: 1.44231rem;
+.showcase-titles span {
+  font-family: $plex-sans-serif;
+  font-weight: 300;
+  color: #666666
 }
 
-.prelude-link {
-  border-bottom: 1px solid;
+.section-grid {
+  padding-bottom: 5rem;
+  padding-top: 10rem;
 }
 
-.prelude {
-  font-family: $plex-serif;
-  margin-top: 50vh;
-  margin-bottom: 50vh;
+.visit {
+  font-family: $plex-sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  border-bottom: solid 2px;
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
 }
+
+// Custom
 
 .sketch-grid {
   padding: 0rem;
@@ -172,6 +198,10 @@ a:hover {
     line-height: 45px;
     font-size: 35px;
     margin-bottom: 10vh;
+  }
+  .title-link {
+    border-bottom: solid 2px;
+    color: blue;
   }
   .subtitle {
     margin-bottom: 25vh;
