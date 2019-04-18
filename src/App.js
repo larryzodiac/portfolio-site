@@ -49,7 +49,7 @@ class App extends Component {
 
         {/*
           Section 1
-          Parametric Posters
+          Generative Jewellery
         */}
 
         <div className="mdc-layout-grid section-grid">
@@ -65,16 +65,23 @@ class App extends Component {
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
-                  <header className="mdc-typography--headline2 showcase-titles">Parametric Posters<span> // Creative coding for print with generative design.</span></header>
+                  <header className="mdc-typography--headline2 showcase-titles">Generative Jewellery<span> // Algorithmic and generative design for 3D printed jewellery.</span></header>
                 </div>
               </div>
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-6">
                   <br />
-                  <p className="mdc-typography--body1">p5.js</p>
+                  <p className="mdc-typography--body1">React, Three, MongoDB, Express, Node, Material</p>
                   <br />
-                  <a className="visit" href="https://larryzodiac-creative-coding.glitch.me/" target="new">Visit Project >></a>
+                  <br />
+                  <a className="visit" href="https://larryzodiac.github.io/generative-jewellery-demo/" target="new">Visit Demo >></a>
+                  <br />
+                  <br />
+                  <a className="visit" href="https://github.com/larryzodiac/generative-jewellery" target="new">Visit Project >></a>
+                  <br />
+                  <br />
+                  <a className="visit" href="https://generative-jewellery-mern.herokuapp.com/" target="new">Visit Full-Stack >></a>
                 </div>
                 <div className="mdc-layout-grid__cell--span-6">
                   <br />
@@ -87,14 +94,8 @@ class App extends Component {
               <br />
 
               <div className="mdc-layout-grid__inner">
-                <div className="mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-4-phone">
-                  <img className="img" alt="" src="https://raw.githubusercontent.com/larryzodiac/creative-coding/master/src/course/01_assignment/01_stills/190416_180336_730_Colour1__rgba(69%2C58%2C148%2C1)_Colour2__rgba(244%2C59%2C71%2C1).png"></img>
-                </div>
-                <div className="mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-4-phone">
-                  <img className="img" alt="" src="https://raw.githubusercontent.com/larryzodiac/creative-coding/glitch/src/course/01_assignment/01_stills/181129_213252_388_Colour1__rgba(59%2C0%2C255%2C1)_Colour2__rgba(0%2C48%2C255%2C1).png"></img>
-                </div>
-                <div className="mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-4-phone">
-                  <img className="img" alt="" src="https://raw.githubusercontent.com/larryzodiac/creative-coding/glitch/src/course/01_assignment/01_stills/181129_220652_68_Colour1__rgba(0%2C0%2C0%2C1)_Colour2__rgba(41%2C41%2C51%2C1).png"></img>
+                <div className="mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone" id="typography">
+                  <iframe className="iframe" title="iframe" src="https://larryzodiac.github.io/generative-jewellery-demo/"></iframe>
                 </div>
               </div>
 
@@ -104,7 +105,7 @@ class App extends Component {
         </div>
 
         {/*
-          Section 3
+          Section 2
           Creative Coding Portfolio
         */}
 
@@ -145,6 +146,62 @@ class App extends Component {
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone" id="typography">
                   <iframe className="iframe" title="iframe" src="https://larryzodiac-creative-coding.glitch.me/"></iframe>
+                </div>
+              </div>
+
+            </div>
+            <div className="mdc-layout-grid__cell--span-2" />
+          </div>
+        </div>
+
+        {/*
+          Section 3
+          Parametric Posters
+        */}
+
+        <div className="mdc-layout-grid section-grid">
+          <div className="mdc-layout-grid__inner">
+            <div className="mdc-layout-grid__cell--span-2" />
+            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+
+              <div className="mdc-layout-grid__inner">
+                <div className="mdc-layout-grid__cell--span-12">
+                  <aside className="col-12">FILE > 1/4 ...</aside>
+                </div>
+              </div>
+
+              <div className="mdc-layout-grid__inner">
+                <div className="mdc-layout-grid__cell--span-12">
+                  <header className="mdc-typography--headline2 showcase-titles">Parametric Posters<span> // Creative coding for print with generative design.</span></header>
+                </div>
+              </div>
+
+              <div className="mdc-layout-grid__inner">
+                <div className="mdc-layout-grid__cell--span-6">
+                  <br />
+                  <p className="mdc-typography--body1">p5.js</p>
+                  <br />
+                  <a className="visit" href="https://larryzodiac-creative-coding.glitch.me/" target="new">Visit Creative Coding Portfolio >></a>
+                </div>
+                <div className="mdc-layout-grid__cell--span-6">
+                  <br />
+                  <p className="mdc-typography--body1">description</p>
+                </div>
+              </div>
+
+              <br />
+              <br />
+              <br />
+
+              <div className="mdc-layout-grid__inner">
+                <div className="mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-4-phone">
+                  <img className="img" alt="" src="https://raw.githubusercontent.com/larryzodiac/creative-coding/master/src/course/01_assignment/01_stills/190416_180336_730_Colour1__rgba(69%2C58%2C148%2C1)_Colour2__rgba(244%2C59%2C71%2C1).png"></img>
+                </div>
+                <div className="mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-4-phone">
+                  <img className="img" alt="" src="https://raw.githubusercontent.com/larryzodiac/creative-coding/glitch/src/course/01_assignment/01_stills/181129_213252_388_Colour1__rgba(59%2C0%2C255%2C1)_Colour2__rgba(0%2C48%2C255%2C1).png"></img>
+                </div>
+                <div className="mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-4-phone">
+                  <img className="img" alt="" src="https://raw.githubusercontent.com/larryzodiac/creative-coding/glitch/src/course/01_assignment/01_stills/181129_220652_68_Colour1__rgba(0%2C0%2C0%2C1)_Colour2__rgba(41%2C41%2C51%2C1).png"></img>
                 </div>
               </div>
 
