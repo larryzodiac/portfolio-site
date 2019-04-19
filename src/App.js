@@ -20,7 +20,7 @@ class App extends Component {
 
         <div className="mdc-layout-grid heading">
           <div className="mdc-layout-grid__inner">
-            <div className="mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone" id="s02" />
+            <div className="mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone" id="s01" />
           </div>
         </div>
 
@@ -42,6 +42,25 @@ class App extends Component {
                 </div>
               </div>
 
+              <div className="mdc-layout-grid__inner">
+                <div className="mdc-layout-grid__cell--span-12">
+                  <header className="mdc-typography--headline2 title">
+                    Interwebs:
+                    <br/>
+                    <br/>
+                    <a className="title-link" href="mailto:evanmachale@gmail.com" target="_new">Email</a>
+                    <br/>
+                    <a className="title-link" href="https://glitch.com/@larryzodiac" target="_new">Glitch</a>
+                    <br/>
+                    <a className="title-link" href="https://github.com/larryzodiac/" target="_new">Github</a>
+                    <br/>
+                    <a className="title-link" href="https://www.linkedin.com/in/evanmachale/" target="_new">LinkedIn</a>
+                    <br/>
+                    <a className="title-link" href="https://larryzodiac-creative-coding.glitch.me/" target="_new">Experiments</a>
+                  </header>
+                </div>
+              </div>
+
             </div>
             <div className="mdc-layout-grid__cell--span-5-desktop mdc-layout-grid__cell--span-1-tablet" />
           </div>
@@ -59,7 +78,7 @@ class App extends Component {
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
-                  <aside className="col-12">FILE > 1/4 ...</aside>
+                  <aside className="col-12">FILE > 1/8 ... [UNDER CONSTRUCTION]</aside>
                 </div>
               </div>
 
@@ -85,7 +104,7 @@ class App extends Component {
                 </div>
                 <div className="mdc-layout-grid__cell--span-6">
                   <br />
-                  <p className="mdc-typography--body1">description</p>
+                  <p className="mdc-typography--body1">Final year research project. Below is the demo build for the core functionalities of the project. See the adjacent links for more information.<br /><br />This project seeks to investigate existing subdivision surface algorithms and data structures for the purpose of creating computer generated jewellery from basic shapes in a three-dimensional, browser environment. This jewellery is structured and manipulated by a set of weights defined by constants in the algorithm equations. The shape of the jewellery is determined by the effect of these weights on the properties of the source shape.</p>
                 </div>
               </div>
 
@@ -116,7 +135,7 @@ class App extends Component {
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
-                  <aside className="col-12">FILE > 1/4 ...</aside>
+                  <aside className="col-12">FILE > 2/8 ...</aside>
                 </div>
               </div>
 
@@ -135,7 +154,7 @@ class App extends Component {
                 </div>
                 <div className="mdc-layout-grid__cell--span-6">
                   <br />
-                  <p className="mdc-typography--body1">description</p>
+                  <p className="mdc-typography--body1">Final year Creative Coding module assessment 3.<br /><br />This project is a personal portfolio website for displaying individual assessments and learning outcomes conducted throughout the year.</p>
                 </div>
               </div>
 
@@ -166,7 +185,7 @@ class App extends Component {
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
-                  <aside className="col-12">FILE > 1/4 ...</aside>
+                  <aside className="col-12">FILE > 3/8 ...</aside>
                 </div>
               </div>
 
@@ -185,7 +204,7 @@ class App extends Component {
                 </div>
                 <div className="mdc-layout-grid__cell--span-6">
                   <br />
-                  <p className="mdc-typography--body1">description</p>
+                  <p className="mdc-typography--body1">Final year Creative Coding module assessment 2. This project is featured on the creative coding portfolio site<br /><br />Using creative/generative coding principles, design and code a set of posters for a generative design event. This project paired parametric mathematics with trigonometric functions and implemented different types of linear colour interpolations.</p>
                 </div>
               </div>
 
@@ -222,7 +241,7 @@ class App extends Component {
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
-                  <aside className="col-12">FILE > 1/4 ...</aside>
+                  <aside className="col-12">FILE > 4/8 ...</aside>
                 </div>
               </div>
 
@@ -241,7 +260,7 @@ class App extends Component {
                 </div>
                 <div className="mdc-layout-grid__cell--span-6">
                   <br />
-                  <p className="mdc-typography--body1">description</p>
+                  <p className="mdc-typography--body1">Final year Creative Coding module assessment 1. This project is featured on the creative coding portfolio site<br /><br />Develop an interactive typography playground with generative controls. The assessment draws shapes based on a grid overlain with the typed text. User inputted text updates the grid and translates shapes using interpolation.</p>
                 </div>
               </div>
 
@@ -272,7 +291,7 @@ class App extends Component {
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
-                  <aside className="col-12">FILE > 1/4 ...</aside>
+                  <aside className="col-12">FILE > 5/8 ...</aside>
                 </div>
               </div>
 
@@ -288,10 +307,13 @@ class App extends Component {
                   <p className="mdc-typography--body1">React, Material Components</p>
                   <br />
                   <a className="visit" href="https://larryzodiac.github.io/pokedex/#/" target="new">Visit Project >></a>
+                  <br />
+                  <br />
+                  <a className="visit" href="https://github.com/larryzodiac/pokedex/blob/master/report/README.md" target="new">Visit Report >></a>
                 </div>
                 <div className="mdc-layout-grid__cell--span-6">
                   <br />
-                  <p className="mdc-typography--body1">description</p>
+                  <p className="mdc-typography--body1">Final year Advanced JavaScript module assessment 1.<br /><br />Using an API and front-end framework, develop a web application with React.<br /><br />The project implements declarative routing with React Router, Axios API requests, Sass and Google's Material design components for React.</p>
                 </div>
               </div>
 
@@ -322,7 +344,7 @@ class App extends Component {
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
-                  <aside className="col-12">FILE > 1/4 ...</aside>
+                  <aside className="col-12">FILE > 6/8 ....</aside>
                 </div>
               </div>
 
@@ -338,10 +360,13 @@ class App extends Component {
                   <p className="mdc-typography--body1">React, MongoDB, Express, Node, Material Components</p>
                   <br />
                   <a className="visit" href="https://larryzodiac-mern.glitch.me/" target="new">Visit Project >></a>
+                  <br />
+                  <br />
+                  <a className="visit" href="https://github.com/larryzodiac/mern/blob/master/report/README.md" target="new">Visit Report >></a>
                 </div>
                 <div className="mdc-layout-grid__cell--span-6">
                   <br />
-                  <p className="mdc-typography--body1">description</p>
+                  <p className="mdc-typography--body1">Final year Advanced JavaScript module assessment 2.<br /><br />Develop a full web application stack using MongoDB, Express, React and Node (MERN). This project was an attempt to mimic Medium, an online publishing platform.<br /><br />The project implements Passport authentication, declarative routing with React Router, Axios/Express API requests to custom MongoDB Atlas collections, Sass and Google's Material design components for React. All bundled with Webpack.</p>
                 </div>
               </div>
 
@@ -372,7 +397,7 @@ class App extends Component {
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
-                  <aside className="col-12">FILE > 3/4 ... [MY FIRST PROJECT]</aside>
+                  <aside className="col-12">FILE > 7/8 ...</aside>
                 </div>
               </div>
 
@@ -391,7 +416,7 @@ class App extends Component {
                 </div>
                 <div className="mdc-layout-grid__cell--span-6">
                   <br />
-                  <p className="mdc-typography--body1">description</p>
+                  <p className="mdc-typography--body1">Third year research project. Below is the demo build for the core functionalities of the project.<br/><br/>This project sought to investigate how to render WebGL meshes with dynamically updated textures in Three. The result was a sngle page playgorund where users could choose colours for certain sections of an svg, which was then mapped to a geometry.</p>
                 </div>
               </div>
 
@@ -422,7 +447,7 @@ class App extends Component {
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
-                  <aside className="col-12">FILE > 3/4 ...</aside>
+                  <aside className="col-12">FILE > 8/8 ...</aside>
                 </div>
               </div>
 
@@ -441,7 +466,7 @@ class App extends Component {
                 </div>
                 <div className="mdc-layout-grid__cell--span-6">
                   <br />
-                  <p className="mdc-typography--body1">description</p>
+                  <p className="mdc-typography--body1">Third year Web Application Frameworks project assessment 2.<br/><br/></p>
                 </div>
               </div>
 

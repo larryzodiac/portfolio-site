@@ -5,7 +5,7 @@
 */
 
 import 'p5/lib/addons/p5.dom';
-import Font from '../../assets/IBMPlexSans-Bold.ttf'
+import Font from '../../assets/IBMPlexSans-Regular.ttf'
 
 // The seed that will spawn our p5 p.
 const s01 = (p) => {
@@ -87,7 +87,7 @@ const s01 = (p) => {
     textImg.background(255);
     textImg.textFont(font);
     textImg.textSize(fontSize);
-    textImg.text(textTyped, cube/4.5, fontSize-115);
+    textImg.text(textTyped, cube/4.6, fontSize-120);
     textImg.loadPixels();
   }
 
@@ -106,6 +106,7 @@ const s01 = (p) => {
   }
 
   p.draw = () => {
+    p.smooth();
     const w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     p.background(0);
     if (w < 1000) p.scale(0.5);

@@ -15,7 +15,7 @@ const s02 = (p) => {
   */
 
   const Agent = function() {
-    this.vector = p.createVector(p.random(p.width), p.random(p.height), p.random(200));
+    this.vector = p.createVector(p.random(cube), p.random(cube), p.random(cube/5));
     this.vectorOld = this.vector.copy();
     this.stepSize = p.random(1, 5);
     this.isOutside = false;
@@ -29,16 +29,16 @@ const s02 = (p) => {
     this.vector.x += p.cos(this.angle) * this.stepSize;
     this.vector.y += p.sin(this.angle) * this.stepSize;
     this.vector.z += p.cos(this.angle) * this.stepSize;
-    this.isOutside = this.vector.x < 0 || this.vector.x > p.width || this.vector.y < 0 || this.vector.y > p.height || this.vector.z < 0 || this.vector.z > cube/5;
+    this.isOutside = this.vector.x < 0 || this.vector.x > cube || this.vector.y < 0 || this.vector.y > cube || this.vector.z < 0 || this.vector.z > cube/5;
     let isGap = false;
     if (this.isOutside) {
-      this.vector.set(p.random(p.width), p.random(p.height), p.random(cube/5));
+      this.vector.set(p.random(cube), p.random(cube), p.random(cube/5));
       //this.vector.set(random(cube), random(cube));
       isGap = true;
     }
     this.positions.push(this.vector.copy());
     this.gaps.push(isGap);
-    if (this.positions.length > 20) {
+    if (this.positions.length > 10) {
       this.positions.shift();
       this.gaps.shift();
     }
@@ -66,7 +66,7 @@ const s02 = (p) => {
   const id = 's02';
   let elw, elh;
   let canvas;
-  let textTyped = "e";
+  let textTyped = "E";
   let font;
   const fontSize = 500;
   let textImg;
@@ -74,20 +74,20 @@ const s02 = (p) => {
   const cube = 500;
   const step = 0.001;
   let agents = [];
-  const agentCount = 1000;
-  const noiseScale = 1000;
-  const noiseStrength = 50;
+  const agentCount = 400;
+  const noiseScale = 300;
+  const noiseStrength = 10;
   const strokeWidth = 0.3;
 
   p.preload = () => font = p.loadFont(Font);
 
   p.setupText = () => {
-    textImg = p.createGraphics(p.width/2, p.width/2);
+    textImg = p.createGraphics(cube, cube);
     textImg.pixelDensity(1);
     textImg.background(255);
     textImg.textFont(font);
     textImg.textSize(fontSize);
-    textImg.text(textTyped, cube/4.5, fontSize-115);
+    textImg.text(textTyped, 10, cube);
     textImg.loadPixels();
   }
 
@@ -106,16 +106,16 @@ const s02 = (p) => {
 
   p.draw = () => {
     p.smooth();
-    p.ortho(-p.width * 5, p.width * 5, p.height * 5, -p.height * 5, 0, 500);
+    // p.ortho(-p.width * 5, p.width * 5, p.height * 5, -p.height * 5, 0, 500);
     const w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     p.background(255);
     if (w < 1000) p.scale(0.5);
-    const mX = p.constrain(p.mouseX, 0, p.width);
-    const mouse = p.map(mX, 0, p.width, 170, 200);
-    const rotationSpeed = p.sin(p.radians(mouse)) * 0.5;
-    p.rotateY(rotationSpeed);
+    // const mX = p.constrain(p.mouseX, 0, p.width);
+    // const mouse = p.map(mX, 0, p.width, 170, 200);
+    // const rotationSpeed = p.sin(p.radians(mouse)) * 0.5;
+    // p.rotateY(rotationSpeed);
     // angle += step;
-    p.translate(-p.width/2, -p.height/2);
+    p.translate(-cube/2, -cube/2);
     for (let i = 0; i < agentCount; i++) {
       let index = p.floor(p.floor(agents[i].vector.x) + p.floor(agents[i].vector.y) * textImg.width) * 4;
       let red = textImg.pixels[index];
