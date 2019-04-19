@@ -5,7 +5,7 @@
 */
 
 import 'p5/lib/addons/p5.dom';
-import Font from '../../assets/IBMPlexSans-Regular.ttf'
+import Font from '../assets/IBMPlexSans-Regular.ttf'
 
 // The seed that will spawn our p5 p.
 const s02 = (p) => {
