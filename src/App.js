@@ -4,11 +4,22 @@
   App.js
 */
 
-import p5 from 'p5';
-import 'p5/lib/addons/p5.dom';
 import React, { Component } from 'react';
 import './App.scss';
 import './clock';
+import p5 from 'p5';
+import 'p5/lib/addons/p5.dom';
+// import './assets/p5.dom.min.js';
+// import './assets/p5.min.js';
+
+// Sketches
+// import s00 from './sketches/s00'
+import s01 from './sketches/s01'
+// import s02 from './sketches/s02'
+
+// new p5(s00,'s00');
+new p5(s01,'s01');
+// new p5(s02,'s02');
 
 class App extends Component {
   constructor() {
@@ -18,7 +29,7 @@ class App extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <main>
 
         <div className="mdc-layout-grid heading">
           <div className="mdc-layout-grid__inner">
@@ -37,9 +48,9 @@ class App extends Component {
             <div className="mdc-layout-grid__cell--span-5-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-4-phone">
 
               <div className="mdc-layout-grid__inner">
-                <div className="mdc-layout-grid__cell--span-12">
+                <div className="mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
                   <header className="mdc-typography--headline2 title">
-                    Kildare based fourth-<br/>year computing student, currently studying at<br/>Dún Laoghaire's<br/><a href="http://www.iadt.ie/courses/creative-computing" className="title-link" target="_new">Institute of Art, Design,<br/>&amp; Technology.</a><br/><br/>I wait tables, paint <a href="https://www.forgeworld.co.uk/Gallery" className="title-link" target="_new">Warhammer</a> &amp; pursue<br/>my dream of a career in<br/>user experience-<br/>interaction design.
+                    Kildare based fourth year computing student, currently studying at Dún Laoghaire's <a href="http://www.iadt.ie/courses/creative-computing" className="title-link" target="_new">Institute of Art, Design, &amp; Technology.</a><br/><br/>I wait tables, paint <a href="https://www.forgeworld.co.uk/Gallery" className="title-link" target="_new">Warhammer</a> &amp; pursue my dream of a career in user experience-interaction design.
                   </header>
                 </div>
               </div>
@@ -75,8 +86,8 @@ class App extends Component {
 
         <div className="mdc-layout-grid section-grid">
           <div className="mdc-layout-grid__inner">
-            <div className="mdc-layout-grid__cell--span-2" />
-            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
+            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-4-phone">
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
@@ -121,7 +132,7 @@ class App extends Component {
               </div>
 
             </div>
-            <div className="mdc-layout-grid__cell--span-2" />
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
           </div>
         </div>
 
@@ -132,8 +143,8 @@ class App extends Component {
 
         <div className="mdc-layout-grid section-grid">
           <div className="mdc-layout-grid__inner">
-            <div className="mdc-layout-grid__cell--span-2" />
-            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
+            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-4-phone">
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
@@ -171,7 +182,7 @@ class App extends Component {
               </div>
 
             </div>
-            <div className="mdc-layout-grid__cell--span-2" />
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
           </div>
         </div>
 
@@ -182,8 +193,8 @@ class App extends Component {
 
         <div className="mdc-layout-grid section-grid">
           <div className="mdc-layout-grid__inner">
-            <div className="mdc-layout-grid__cell--span-2" />
-            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
+            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-4-phone">
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
@@ -215,19 +226,19 @@ class App extends Component {
               <br />
 
               <div className="mdc-layout-grid__inner">
-                <div className="mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-4-phone">
+                <div className="mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-phone">
                   <img className="img" alt="" src="https://raw.githubusercontent.com/larryzodiac/creative-coding/master/src/course/01_assignment/01_stills/190416_180336_730_Colour1__rgba(69%2C58%2C148%2C1)_Colour2__rgba(244%2C59%2C71%2C1).png"></img>
                 </div>
-                <div className="mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-4-phone">
+                <div className="mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-phone">
                   <img className="img" alt="" src="https://raw.githubusercontent.com/larryzodiac/creative-coding/glitch/src/course/01_assignment/01_stills/181129_213252_388_Colour1__rgba(59%2C0%2C255%2C1)_Colour2__rgba(0%2C48%2C255%2C1).png"></img>
                 </div>
-                <div className="mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-4-phone">
+                <div className="mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-phone">
                   <img className="img" alt="" src="https://raw.githubusercontent.com/larryzodiac/creative-coding/glitch/src/course/01_assignment/01_stills/181129_220652_68_Colour1__rgba(0%2C0%2C0%2C1)_Colour2__rgba(41%2C41%2C51%2C1).png"></img>
                 </div>
               </div>
 
             </div>
-            <div className="mdc-layout-grid__cell--span-2" />
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
           </div>
         </div>
 
@@ -238,8 +249,8 @@ class App extends Component {
 
         <div className="mdc-layout-grid section-grid">
           <div className="mdc-layout-grid__inner">
-            <div className="mdc-layout-grid__cell--span-2" />
-            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
+            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-4-phone">
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
@@ -277,7 +288,7 @@ class App extends Component {
               </div>
 
             </div>
-            <div className="mdc-layout-grid__cell--span-2" />
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
           </div>
         </div>
 
@@ -288,8 +299,8 @@ class App extends Component {
 
         <div className="mdc-layout-grid section-grid">
           <div className="mdc-layout-grid__inner">
-            <div className="mdc-layout-grid__cell--span-2" />
-            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
+            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-4-phone">
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
@@ -330,7 +341,7 @@ class App extends Component {
               </div>
 
             </div>
-            <div className="mdc-layout-grid__cell--span-2" />
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
           </div>
         </div>
 
@@ -341,8 +352,8 @@ class App extends Component {
 
         <div className="mdc-layout-grid section-grid">
           <div className="mdc-layout-grid__inner">
-            <div className="mdc-layout-grid__cell--span-2" />
-            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
+            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-4-phone">
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
@@ -383,7 +394,7 @@ class App extends Component {
               </div>
 
             </div>
-            <div className="mdc-layout-grid__cell--span-2" />
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
           </div>
         </div>
 
@@ -394,8 +405,8 @@ class App extends Component {
 
         <div className="mdc-layout-grid section-grid">
           <div className="mdc-layout-grid__inner">
-            <div className="mdc-layout-grid__cell--span-2" />
-            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
+            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-4-phone">
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
@@ -433,7 +444,7 @@ class App extends Component {
               </div>
 
             </div>
-            <div className="mdc-layout-grid__cell--span-2" />
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
           </div>
         </div>
 
@@ -444,8 +455,8 @@ class App extends Component {
 
         <div className="mdc-layout-grid section-grid">
           <div className="mdc-layout-grid__inner">
-            <div className="mdc-layout-grid__cell--span-2" />
-            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
+            <div className="mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-4-phone">
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-12">
@@ -483,7 +494,7 @@ class App extends Component {
               </div>
 
             </div>
-            <div className="mdc-layout-grid__cell--span-2" />
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
           </div>
         </div>
 
@@ -494,9 +505,9 @@ class App extends Component {
 
         <div className="mdc-layout-grid footer">
           <div className="mdc-layout-grid__inner">
-            <div className="mdc-layout-grid__cell--span-1" />
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
 
-            <div className="mdc-layout-grid__cell--span-10-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+            <div className="mdc-layout-grid__cell--span-10-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-4-phone">
 
               <div className="mdc-layout-grid__inner">
                 <div className="mdc-layout-grid__cell--span-6">
@@ -511,11 +522,11 @@ class App extends Component {
               </div>
 
             </div>
-            <div className="mdc-layout-grid__cell--span-1" />
+            <div className="mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-1-tablet" />
           </div>
         </div>
 
-      </React.Fragment>
+      </main>
     );
   }
 }

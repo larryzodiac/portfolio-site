@@ -2,15 +2,5 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import p5 from 'p5';
-import 'p5/lib/addons/p5.dom';
-// Sketches
-// import s00 from './sketches/s00'
-import s01 from './sketches/s01'
-// import s02 from './sketches/s02'
-
-// new p5(s00,'s00');
-new p5(s01,'s01');
-// new p5(s02,'s02');
 
 ReactDOM.render(<App />, document.getElementById('root'));
