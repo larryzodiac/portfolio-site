@@ -4,8 +4,9 @@
   01.js
 */
 
+import p5 from 'p5';
 import 'p5/lib/addons/p5.dom';
-import Font from '../assets/IBMPlexSans-Regular.ttf'
+import Font from '../assets/IBMPlexSans-Regular.otf';
 
 // The seed that will spawn our p5 p.
 const s01 = (p) => {
@@ -48,6 +49,7 @@ const s01 = (p) => {
         p.endShape();
         p.beginShape();
       }
+      p.texture(texture);
       p.vertex(this.positions[i].x, this.positions[i].y, this.positions[i].z);
     }
     p.endShape();
@@ -78,6 +80,7 @@ const s01 = (p) => {
   const noiseScale = 300;
   const noiseStrength = 10;
   const strokeWidth = 0.3;
+  let texture;
 
   p.preload = () => font = p.loadFont(Font);
 
@@ -96,6 +99,8 @@ const s01 = (p) => {
     elh = window.innerHeight;
     canvas = p.createCanvas(elw, elh, p.WEBGL);
     canvas.parent(id);
+    texture = p.createGraphics(10,10);
+    texture.background(255);
     p.setupText();
     p.frameRate(30);
     for (let i = 0; i < agentCount; i++) {
@@ -122,11 +127,13 @@ const s01 = (p) => {
       let red = textImg.pixels[index];
       if (red < 100) {
         p.noStroke();
-        p.fill(255);
+        p.fill(255)
+        texture.background(255);
         agents[i].updateNoise(10, 50, strokeWidth);
       } else {
         p.noStroke();
-        p.fill(0,0,250);
+        p.fill(0,0,250)
+        texture.background(0,0,250);
         agents[i].updateNoise(noiseScale, noiseStrength, strokeWidth);
       }
     }

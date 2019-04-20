@@ -4,6 +4,8 @@
   App.js
 */
 
+import p5 from 'p5';
+import 'p5/lib/addons/p5.dom';
 import React, { Component } from 'react';
 import './App.scss';
 import './clock';
@@ -16,7 +18,7 @@ class App extends Component {
 
   render() {
     return (
-      <main>
+      <React.Fragment>
 
         <div className="mdc-layout-grid heading">
           <div className="mdc-layout-grid__inner">
@@ -513,7 +515,7 @@ class App extends Component {
           </div>
         </div>
 
-      </main>
+      </React.Fragment>
     );
   }
 }

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import p5 from 'p5';
+import 'p5/lib/addons/p5.dom';
 // Sketches
 // import s00 from './sketches/s00'
 import s01 from './sketches/s01'
