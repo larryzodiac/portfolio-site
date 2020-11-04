@@ -5,16 +5,15 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-    entry: {
-        main: path.resolve(__dirname, './src/index.js'),
-    },
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, './dist'),
-        filename: 'bundle.js',
+        filename: 'bundle.js'
     },
     module: {
         rules: [
             // CSS & SCSS
+            // Webpack 5
             {
                 test: /\.s[ac]ss$/i,
                 use: [
@@ -49,8 +48,8 @@ module.exports = {
     devServer: {
         historyApiFallback: true,
         contentBase: path.resolve(__dirname, './dist'),
+        watchContentBase: true,
         open: true,
-        compress: true,
         hot: true,
         port: 3000,
     },
