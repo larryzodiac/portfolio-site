@@ -157,8 +157,13 @@ aside {
 }
 
 .img {
+  margin-top: 5rem;
   height: 100%;
   width: 100%;
+}
+
+.bookstore {
+  border: 2px solid;
 }
 
 .iframe {
@@ -169,8 +174,11 @@ aside {
 
 .footer {
   height:100vh;
-  padding-top: 4rem;
   padding-top: 5rem;
+}
+
+.footer-content {
+  padding-top: 10rem;
 }
 
 @media screen and (max-width: 768px) {
