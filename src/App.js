@@ -5,6 +5,7 @@
 
 import React from 'react';
 import './App.scss';
+import './clock';
 // Material
 import {Cell, Grid, Row} from '@material/react-layout-grid';
 
@@ -16,9 +17,15 @@ class App extends React.Component {
 
   render() {
     return (
-      <Grid className="grid">
-        <b>yousag</b>
-      </Grid>
+      <React.Fragment>
+        <div className="sketch" id="s01"></div>
+        <Grid className="grid">
+          {/*Info*/}
+          <Row>
+            <Cell desktopColumns={12} phoneColumns={4} tabletColumns={8}>Hello</Cell>
+          </Row>
+        </Grid>
+      </React.Fragment>
     );
   }
 }
