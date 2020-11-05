@@ -40,8 +40,18 @@ class App extends React.Component {
             <Cell desktopColumns={2} phoneColumns={0} tabletColumns={1} />
             <Cell desktopColumns={7} phoneColumns={4} tabletColumns={6}>
               <Headline2 className="title">
-                I’m a graduate software engineer with a B.Sc in <a href="http://www.iadt.ie/courses/creative-computing" className="title-link" target="_new">Creative Computing</a> from <i>Dún Laoghaire’s Institute of Art, Design &amp; Technology</i>, followed by a MA in <a href="https://www.ncad.ie/postgraduate/school-of-design/ma-interaction-design/" className="title-link" target="_new">Human—computer Interaction Design</a> from <i>Ireland’s National College of Art &amp; Design</i>.
+                I’m a <b className="blue title">graduate software engineer</b> with a B.Sc in <a href="http://www.iadt.ie/courses/creative-computing" className="title-link" target="_new">Creative Computing</a> from <i>Dún Laoghaire’s IADT</i>, followed by a MA in <a href="https://www.ncad.ie/postgraduate/school-of-design/ma-interaction-design/" className="title-link" target="_new">Human—computer Interaction Design</a> from <i>Ireland’s NCAD</i>.
               </Headline2>
+              <br/>
+              <Headline2 className="title">
+                I'm <i className="blue">multidisciplinary*</i>, with modern OOP, full-stack &amp; <a href="https://www.designkit.org/" className="title-link" target="_new">HCD</a> practices, technologies &amp; languages.
+              </Headline2>
+              <Body2 className="underline">
+                *Java, SQL, <b className="blue">ES6 JavaScript</b>, p5, Three, jQuery, R, d3, Laravel, Vue, Node, MongoDB, <b className="blue">React</b>, Express &amp; Python.
+              </Body2>
+              <Body2 className="underline">
+                *HCD, Service Design, UX, User Research, Journey Mapping, Prototyping, <b className="blue">Figma</b>, Adobe, Protopie, Heuristics, Flows, Grids, Type &amp; Patterns.
+              </Body2>
             </Cell>
             <Cell desktopColumns={3} phoneColumns={0} tabletColumns={1} />
           </Row>
@@ -49,7 +59,7 @@ class App extends React.Component {
             <Cell desktopColumns={2} phoneColumns={0} tabletColumns={1} />
             <Cell desktopColumns={7} phoneColumns={4} tabletColumns={6}>
               <Headline2 className="title">
-                Interwebs:
+                <b className="blue title">Interwebs:</b>
                 <br />
                 <br />
                 <a className="title-link" href="https://drive.google.com/file/d/18I4C9KcP6Yakb7LMTUILuk2teta1yQZb/view" target="_new">CV</a>
@@ -405,9 +415,10 @@ class App extends React.Component {
               <Row className="footer-content">
                 <Cell columns={6}>
                   <Headline4>
-                    I'm an aspiring software engineer &amp; interaction designer. At the moment I'm enrolled in a networking course with the hopes to meet new people and gain new skills in the search for a software role.
+                    I'm an aspiring software engineer &amp; interaction designer. At the moment I'm enrolled in a networking course with the hopes of meeting new people and gaining new skills in my search for a software role.
                   </Headline4>
                   <Headline4>Thanks for reading.</Headline4>
+                  <Headline4>Sláinte.</Headline4>
                 </Cell>
                 <Cell columns={6}>
                   <Headline4>
