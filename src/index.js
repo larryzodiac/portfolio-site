@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import p5 from 'p5';
 // Sketches
 import s01 from './sketches/s01'
-new p5(s01,'s01');
+// new p5(s01,'s01');
 
 ReactDOM.render(
   <React.StrictMode>
